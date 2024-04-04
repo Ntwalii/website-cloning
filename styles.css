@@ -85,8 +85,8 @@ display: flex;
     font-size: 15px;
 }
 .card{
-    height:60%;
-    width: 23%;
+    /* height:60%; */
+    width: 20%;
     border: 0.5px solid #b7b7bb;
     border-radius: 10px;
     margin-left: 10px;
@@ -102,8 +102,39 @@ width: 100%;
     display: flex;
     font-weight: 800;
     justify-content: center;
-    padding-top: 20px;
+    
 }
 .part-2 h2{
-    margin-left:40px ;
+    margin-left:120px ;
+    font-size:30px;
+}
+.part-2{
+    margin-top: 5%;
+}
+.part-2 h1{
+    margin-left:120px;
+    margin-top: 5%;
+}
+.accomodations{
+    margin:0 120px;
+    display: flex;
+}
+.card2{
+    background: url("assets/house.jpeg");
+    height: 250px;
+    width: 300px;
+    background-size: contain;
+    border-radius: 10%;
+    /* margin-right: 5%; */
+    /* background-repeat: no-repeat; */
+}
+.card2 p{
+color: white;
+font-weight: 700;
+font-size: 22px;
+padding-top: 67%;
+padding-left: 5%;
+}
+.card3{
+    margin-left: 5%;
 }
